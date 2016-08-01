@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63l/propr
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63l/proprietary/lib,system/lib)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63l/proprietary/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63l/proprietary/priv-app,system/priv-app)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63l/proprietary/framework,system/framework)
 
