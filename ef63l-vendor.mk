@@ -16,4 +16,16 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+DEVICE_PACKAGE_OVERLAYS += vendor/pantech/ef63l/overlay
+
+PRODUCT_PACKAGES += \
+    libmdmdetect \
+    libTimeService \
+    libtime_genoff
+
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    TimeService
+
 $(call inherit-product, vendor/pantech/ef63l/ef63l-vendor-blobs.mk)
