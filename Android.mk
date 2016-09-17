@@ -16,6 +16,12 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(TARGET_DEVICE),ef63l)
+
+
+ifeq ($(QCPATH),)
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmdmdetect
 LOCAL_MODULE_OWNER := ef63l
@@ -77,3 +83,5 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
+endif
+endif
