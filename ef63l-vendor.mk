@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2016
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,13 +16,12 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    TimeService \
     qcrilmsgtunnel \
     shutdownlistener \
-    libril
-
-PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService \
-    TimeService
+    qcnvitems \
+    qcrilhook \
+    libHevcSwDecoder \
+    libtime_genoff
 
 $(call inherit-product, vendor/pantech/ef63l/ef63l-vendor-blobs.mk)
