@@ -30,8 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63l/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/pantech/ef63l/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/pantech/ef63l/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/pantech/ef63l/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/pantech/ef63l/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/pantech/ef63l/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/pantech/ef63l/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/pantech/ef63l/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/pantech/ef63l/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
@@ -96,11 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63l/proprietary/vendor/firmware/libpn547_pku.so:system/vendor/firmware/libpn547_pku.so \
     vendor/pantech/ef63l/proprietary/vendor/firmware/TestInput.txt:system/vendor/firmware/TestInput.txt \
     vendor/pantech/ef63l/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
@@ -112,14 +107,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63l/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
@@ -242,14 +232,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63l/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
@@ -299,7 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63l/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
@@ -320,11 +307,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63l/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -337,7 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63l/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/pantech/ef63l/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/pantech/ef63l/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
