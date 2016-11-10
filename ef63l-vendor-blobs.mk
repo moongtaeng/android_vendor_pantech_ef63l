@@ -57,6 +57,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63l/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/pantech/ef63l/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/pantech/ef63l/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/pantech/ef63l/proprietary/etc/firmware_ef63k/venus.b01:system/etc/firmware_ef63k/venus.b01 \
+    vendor/pantech/ef63l/proprietary/etc/firmware_ef63k/venus.mbn:system/etc/firmware_ef63k/venus.mbn \
+    vendor/pantech/ef63l/proprietary/etc/firmware_ef63k/venus.mdt:system/etc/firmware_ef63k/venus.mdt \
+    vendor/pantech/ef63l/proprietary/etc/firmware_ef63s/venus.b01:system/etc/firmware_ef63s/venus.b01 \
+    vendor/pantech/ef63l/proprietary/etc/firmware_ef63s/venus.mbn:system/etc/firmware_ef63s/venus.mbn \
+    vendor/pantech/ef63l/proprietary/etc/firmware_ef63s/venus.mdt:system/etc/firmware_ef63s/venus.mdt \
     vendor/pantech/ef63l/proprietary/etc/permissions/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     vendor/pantech/ef63l/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/pantech/ef63l/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
